@@ -1,0 +1,193 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{mail@website.com}\\
+  \textbf{{\Large Billy Pak Lam Lee}} & Email : \href{mailto:pl3lee@uwaterloo.ca}{pl3lee@uwaterloo.ca}\\
+  \href{https://github.com/pl3lee}{https://github.com/pl3lee} & Mobile : +1(437)224-6179 \\
+   & Address: 57 Russell Hill Road, Markham, Ontario, Canada L6C 2M5
+\end{tabular*}
+%-----------CAREER OBJECTIVE-----------------
+\section{Career Objectives}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id porta dolor, ac tempor ante. 
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Ontario, Canada}
+      {Honours Bachelor of Mathematics - Second Year}{Sep. 2020 -- Present}
+    %   \resumeItemListStart
+    % %   {Relevenant Courses: Designing Functional Programs, Elementary Algorithm Design and Data Abstraction, Data Types and Structures, Logic and Computation, Introduction to Computers and Computer Systems, Object-Oriented Software Development}
+    %   \resumeItemListEnd
+    \begin{itemize}
+        \item Cumulative GPA: 88.07
+        \item Relevant Courses: Object-Oriented Software Development, Data Types and Structures, Designing Functional Programs, Elementary Algorithm Design and Data Abstraction, Logic and Computation, Introduction to Computers and Computer Systems
+    \end{itemize}
+    \resumeSubheading
+      {Niagara Christian Collegiate}{Ontario, Canada}
+      {Class of 2020;  Cumulative Average: 94}{Sep. 2018 -- June. 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/pl3lee/Sudoku}{Sudoku Solver - Python}}
+        {Implemented using the backtracking algorithm.}
+    \resumeSubItem{\href{https://github.com/pl3lee/Watcard-Checker}{Watcard Transactions and Balance Checker - Python}}
+    {Scraped Watcard transactions and balances using Selenium, then used matplotlib to create a frequency graph for the transactions.}
+    \resumeSubItem{\href{https://github.com/pl3lee/ConnectX}{Connect-X Game - Python}}
+      {A variation of the Connect-4 game, but with customizable board size and win condition.}
+    \resumeSubItem{\href{https://github.com/pl3lee/Calculator}{Calculator - HTML/CSS/JavaScript}}
+      {Created a basic calculator webpage.}
+    \resumeSubItem{\href{https://github.com/pl3lee/EtchASketch}{Etch A Sketch - HTML/CSS/JavaScript}}
+      {Created an Etch A Sketch webpage that lets the user draw whatever they want.}
+    
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Hanabusa Real Estate Agency}{Japan (Remote)}
+      {Data Entry Automator}{Sep 2020 - Sep 2021}
+      \resumeItemListStart
+        \resumeItem{\href{https://github.com/pl3lee/Hanabusa-Automation}{Web Scraping and Data Entry Automation, Residential Properties}}
+        %   {Extracted residential property information and images from a Japanese real estate website (homes.co.jp) using BeautifulSoup4 and entered them into the company website (hanabusa-realty.com) using Selenium. This saved 5 minutes per property when compared to manually entering information.}
+        {\begin{itemize}
+            \item Extracted residential property information and images from a Japanese real estate website (homes.co.jp) using BeautifulSoup4 and entered them into the company website (hanabusa-realty.com) using Selenium in Python.
+            \item Saved up to 60 hours of manual labor per month.
+        \end{itemize}}
+        \resumeItem{\href{https://github.com/pl3lee/Reins-Automation}{Web Scraping, Investment Properties}}
+        %   {Extracted investment property information from a Japanese investment property website (system.reins.jp). Since the information are in the form of PDF files, a Python script was written to convert the files into HTML files, then Selenium was used to extract the property information (> 30 fields) from the file.}
+        {\begin{itemize}
+            \item Extracted investment property information from a Japanese investment property website (system.reins.jp).
+            \item Wrote a Python script that converted PDF files (Information taken from the website) into HTML files. Then, Selenium was used to select essential property information (over 30 fields) from the HTML file.
+            \item Saved up to 60 hours per month when compared to manually extracting information.
+        \end{itemize}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Walmart}{Ontario, Canada}
+      {Meat Associate (Part Time)}{Jun 2021 - Aug 2021}
+      \resumeItemListStart
+        \resumeItem{Meat Stocking}
+          {\begin{itemize}
+            \item Responsible for stocking and rotating meat products on product shelves.
+          \end{itemize}}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Lucena Research}{Atlanta, GA}
+    %   {Data Scientist}{Summer 2012 and 2013}
+    %   \resumeItemListStart
+    %     \resumeItem{Portfolio Management}
+    %       {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+    %     \resumeItem{QuantDesk}
+    %       {Python backend for a web application used by hedge fund managers for portfolio management.}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Programming Languages}{: Python, Javascript, C++, C, Bash, HTML, CSS, Ruby, R, MIPS Assembly, Racket, LaTeX}
+     \hfill
+   }
+   \item{
+    \textbf{Technologies and Tools}{: Selenium, BeautifulSoup4, Git, Adobe Photoshop, Adobe Premiere, MS Office Suite}
+   }
+   \item{
+    \textbf{Hobbies and Interests}{: Keyboard Building, USB 2.0 Cable Soldering, Badminton, Japanese Culture}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+
+
+\end{document}
