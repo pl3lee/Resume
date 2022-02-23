@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1645539291 "c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resume.tex" "resume.pdf" "resume" 1645539292
+["pdflatex"] 1645638336 "c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resume.tex" "resume.pdf" "resume" 1645638337
   "C:/Users/billy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1645539037 11548 bc1bc2aa37f4b2b306083bbd55f585cd ""
   "C:/Users/billy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1631624287 12668 df0b576e4ae4ff001d30707be1632dcd ""
   "C:/Users/billy/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1631218568 9715383 c29d79ad5e311c7e57bedcd1b8724f55 ""
-  "C:/Users/billy/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1645539035 82124 6568efefa8cae3799499ebb98b3895e8 ""
+  "C:/Users/billy/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1645632890 82124 6568efefa8cae3799499ebb98b3895e8 ""
   "C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993058908 1460 8005ce585ff351dff78998923504da5e ""
   "C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -77,12 +77,12 @@
   "C:/Users/billy/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625494067 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "C:/Users/billy/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1622546726 7392 39729ae6a807e217edf1442cf8fab2c2 ""
   "C:/Users/billy/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resume.tex" 1645539290 8403 beed8b6a974a6acd2c8036ce631f3e21 ""
-  "resume.aux" 1645539292 1221 fd9eb83154344d13be8e93b0832f86b1 "pdflatex"
-  "resume.out" 1645539292 468 f821be468379c86a39950891ed9530f9 "pdflatex"
-  "resume.tex" 1645539290 8403 beed8b6a974a6acd2c8036ce631f3e21 ""
+  "c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resume.tex" 1645638335 8406 dce7ee3145c709d0a10d743230b6d552 ""
+  "resume.aux" 1645638337 1221 fd9eb83154344d13be8e93b0832f86b1 "pdflatex"
+  "resume.out" 1645638337 468 f821be468379c86a39950891ed9530f9 "pdflatex"
+  "resume.tex" 1645638335 8406 dce7ee3145c709d0a10d743230b6d552 ""
   (generated)
   "resume.log"
-  "resume.pdf"
   "resume.out"
+  "resume.pdf"
   "resume.aux"
