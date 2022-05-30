@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resumeSWD.tex"
-(c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resumeSWD.tex
+**"c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resumeWD.tex"
+(c:/Users/billy/OneDrive - University of Waterloo/Personal Stuff/Important Documents/Resume/Resume/resumeWD.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-05> (C:\Users\billy\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -190,8 +190,8 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box52
-) (resumeSWD.aux)
-\openout1 = `resumeSWD.aux'.
+) (resumeWD.aux)
+\openout1 = `resumeWD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
@@ -238,9 +238,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
- (resumeSWD.out) (resumeSWD.out)
+ (resumeWD.out) (resumeWD.out)
 \@outlinefile=\write3
-\openout3 = `resumeSWD.out'.
+\openout3 = `resumeWD.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 77.
@@ -253,9 +253,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 77.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 152.
+(Font)              <7> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 152.
+(Font)              <5> on input line 144.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -264,22 +264,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{C:/Users/billy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resumeSWD.aux)
-Package rerunfilecheck Info: File `resumeSWD.out' has not changed.
+{C:/Users/billy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resumeWD.aux)
+Package rerunfilecheck Info: File `resumeWD.out' has not changed.
 (rerunfilecheck)             Checksum: F821BE468379C86A39950891ED9530F9;468.
  ) 
 Here is how much of TeX's memory you used:
  9222 strings out of 478584
- 146128 string characters out of 2844401
- 459367 words of memory out of 3000000
+ 146110 string characters out of 2844401
+ 458362 words of memory out of 3000000
  27302 multiletter control sequences out of 15000+600000
  475527 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,440b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,439b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/billy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resumeSWD.pdf (1 page, 103742 bytes).
+Output written on resumeWD.pdf (1 page, 103484 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
