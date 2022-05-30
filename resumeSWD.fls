@@ -1,7 +1,7 @@
 PWD c:\Users\billy\OneDrive - University of Waterloo\Personal Stuff\Important Documents\Resume\Resume
 INPUT C:\Users\billy\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\billy\OneDrive - University of Waterloo\Personal Stuff\Important Documents\Resume\Resume\resume.tex
-OUTPUT resume.log
+INPUT c:\Users\billy\OneDrive - University of Waterloo\Personal Stuff\Important Documents\Resume\Resume\resumeSWD.tex
+OUTPUT resumeSWD.log
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -417,10 +417,10 @@ INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\resume.aux
-INPUT resume.aux
-INPUT resume.aux
-OUTPUT resume.aux
+INPUT .\resumeSWD.aux
+INPUT resumeSWD.aux
+INPUT resumeSWD.aux
+OUTPUT resumeSWD.aux
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -462,18 +462,18 @@ INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\ge
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT .\resume.out
-INPUT resume.out
-INPUT .\resume.out
-INPUT resume.out
-INPUT .\resume.out
-INPUT resume.out
-INPUT .\resume.out
-INPUT resume.out
-OUTPUT resume.pdf
-INPUT .\resume.out
-INPUT .\resume.out
-OUTPUT resume.out
+INPUT .\resumeSWD.out
+INPUT resumeSWD.out
+INPUT .\resumeSWD.out
+INPUT resumeSWD.out
+INPUT .\resumeSWD.out
+INPUT resumeSWD.out
+INPUT .\resumeSWD.out
+INPUT resumeSWD.out
+OUTPUT resumeSWD.pdf
+INPUT .\resumeSWD.out
+INPUT .\resumeSWD.out
+OUTPUT resumeSWD.out
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -502,9 +502,9 @@ INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy7.tfm
 INPUT C:\Users\billy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy5.tfm
 INPUT C:\Users\billy\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT resume.aux
-INPUT .\resume.out
-INPUT .\resume.out
+INPUT resumeSWD.aux
+INPUT .\resumeSWD.out
+INPUT .\resumeSWD.out
 INPUT C:\Users\billy\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\billy\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\billy\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
