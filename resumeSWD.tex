@@ -46,7 +46,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{ #2 \vspace{-2pt}}
+    \textbf{#1}{ #2 \vspace{-5pt}}
   }
 }
 
@@ -132,24 +132,42 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{\href{https://github.com/pl3lee/Sudoku}{Sudoku Solver - Python:}}
-      {Implemented using the backtracking algorithm.}
-    \resumeSubItem{\href{https://github.com/pl3lee/Watcard-Checker}{Watcard Transactions and Balance Checker - Python:}}
-      {Scraped Watcard transactions and balances using Selenium, then used matplotlib to create a frequency graph for the transactions.}
-    \resumeSubItem{\href{https://github.com/pl3lee/ConnectX}{Connect-X Game - Python:}}
-      {A variation of the Connect-4 game but with customizable board size and win condition.}
-    \resumeSubItem{\href{https://github.com/pl3lee/Biquadris}{Biquadris - C++:}}
-      {Created a Tetris game played by 2 players using C++ as a project for the OOP University course.}
-    \resumeSubItem{{Reverse Polish Notation Mathematical Expression Evaluator - C++:}}
-      {Implemented using the Interpreter design pattern.}
-    \resumeSubItem{{Text Processor - C++:}}
-      {Using commands like dropfirst, doublewords, allcaps, count, this program modifies the given string in command line. Implemented using the Decorator design pattern.}
-    \resumeSubItem{{Partial Sudoku Solver - C++:}}
-      {As the user inputs Sudoku cell values through stdin, this program partially solves the puzzle by using the Observer design pattern, where notified cells, rows, columns, and boxes check if there are any number that are forced through a set of rules.}
-    \resumeSubItem{{Wordle - C++:}}
-      {Created a command line Wordle game, but the length of the word can be arbitrary and numbers can be used.}
-    \resumeSubItem{{RunSuite - Bash Script:}}
-      {Created a Bash script that checks if a given program matches the output of the given test suite.}
+  \resumeSubItem{\href{https://github.com/pl3lee/Biquadris}{Biquadris - C++}}
+    {\begin{itemize}
+      \item A variation of the Tetris game but with customizable board size and win condition.
+      \item Implemented using the Model-View-Controller design pattern.
+      \item The Factory Method design pattern was used to generate blocks for different levels, where each level has different probabilities for generating different blocks.
+      \item The X Window System was used to create the GUI.
+    \end{itemize}}
+      
+    % \resumeSubItem{{Reverse Polish Notation Mathematical Expression Evaluator - C++:}}
+    %   {Implemented using the Interpreter design pattern.}
+    % \resumeSubItem{{Text Processor - C++:}}
+    %   {Using commands like dropfirst, doublewords, allcaps, count, this program modifies the given string in command line. Implemented using the Decorator design pattern.}
+    % \resumeSubItem{{Partial Sudoku Solver - C++:}}
+    %   {As the user inputs Sudoku cell values through stdin, this program partially solves the puzzle by using the Observer design pattern, where notified cells, rows, columns, and boxes check if there are any number that are forced through a set of rules.}
+    \resumeSubItem{{Wordle - C++}}
+      {\begin{itemize}
+        \item Created a command line Wordle game, but the length of the word can be arbitrary and numbers can be used.
+      \end{itemize}}
+    \resumeSubItem{\href{https://github.com/pl3lee/Sudoku}{Sudoku Solver - Python}}
+      {\begin{itemize}
+        \item Implemented using the backtracking algorithm.
+      \end{itemize}}
+    \resumeSubItem{\href{https://github.com/pl3lee/Watcard-Checker}{Watcard Transactions and Balance Checker - Python}}
+      {\begin{itemize}
+        \item Scraped Watcard transactions and balances using Selenium.
+        \item Used matplotlib to create a frequency graph for the transactions.
+      \end{itemize}}
+    \resumeSubItem{\href{https://github.com/pl3lee/ConnectX}{Connect-X Game - Python}}
+      {\begin{itemize}
+        \item A variation of the Connect-4 game but with customizable board size and win condition.
+      \end{itemize}}
+    
+    \resumeSubItem{{RunSuite - Bash Script}}
+      {\begin{itemize}
+        \item Created a Bash script that checks if a given program matches the output of the given test suite.
+      \end{itemize}}
     
 %     \resumeSubItem{Mac Setup}
 %       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
@@ -184,7 +202,7 @@
 \section{Skills}
  \resumeSubHeadingListStart
    \item{
-     \textbf{Programming Languages}{: Python, Javascript, C++, C, Bash, HTML, CSS, SQL, Ruby, R, MIPS Assembly, Racket, LaTeX}
+     \textbf{Programming Languages}{: Python, JavaScript, TypeScript, C++, C, Bash, HTML, CSS, SQL, Ruby, R, MIPS Assembly, Racket, LaTeX}
      \hfill
    }
    \item{
