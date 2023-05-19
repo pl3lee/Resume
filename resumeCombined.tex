@@ -46,12 +46,12 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{ #2 \vspace{3pt}}
+    #1{ #2 \vspace{2pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -106,51 +106,63 @@
 \section{Experience}
 \resumeSubHeadingListStart
 
+\resumeSubheading
+{Bolee Machine Tool Ltd.}{Hong Kong}
+{Computer Technician Intern}{Apr 2023 - May 2023}
+\resumeItemListStart
+\resumeItem{
+	Managed and maintained the company’s Wordpress website, including writing a Python program using Selenium to automate the updating of product prices and deleting products given a list of model numbers, completing 2 months worth of manual labor in just 4 hours.}
+
+\resumeItem{Managed the company’s server system, including configuring the VPN server for remote access and upgrading the storage of the NAS server.
+}
+
+\resumeItemListEnd
 
 \resumeSubheading
 {University of Waterloo}{Waterloo, Ontario, Canada}
 {Full Stack Developer Intern (Part-time)}{Jan 2023 - Apr 2023}
 \resumeItemListStart
-\resumeItem{Rhetoricon Website}
-{\begin{itemize}
-		\item Contributed in the development of a Next.js and TypeScript frontend and a Golang REST API backend for a cognitive linguistic research group's website
-		\item Created responsive and intuitive interfaces using NextJS components and Material UI.
-		\item Utilized GitLab pipeline for testing and linting to ensure optimal website performance and maintain high code quality.
-		\item Streamlined development processes by transitioning the front-end framework from Ant Design to Material-UI.
-		\item Created a backend endpoint that dissociates an instance with a figure.
 
+\resumeItem{Contributed in the development of a Next.js and TypeScript frontend and a Golang REST API backend for a cognitive linguistic research group's website.}
 
-	\end{itemize}}
+\resumeItem{Created responsive and intuitive interfaces using NextJS components and Material UI.}
+
+\resumeItem{Utilized GitLab pipeline for testing and linting to ensure optimal website performance and maintain high code quality.}
+
+\resumeItem{Streamlined development processes by transitioning the front-end framework from Ant Design to Material-UI.}
+
+\resumeItem{Created a backend endpoint that dissociates an instance with a figure.}
+
 \resumeItemListEnd
 
-\resumeSubheading
-{\href{https://hanabusa.cc/}{Hanabusa Japan Real Estate}}{Japan (Remote)}
-{Data Entry Automator}{Sep 2020 - Sep 2021}
-\resumeItemListStart
-\resumeItem{\href{https://github.com/pl3lee/Hanabusa-Automation}{Web Scraping and Data Entry Automation, Residential Properties}}
-{\begin{itemize}
-		\item Extracted residential property information and images from a Japanese real estate website (homes.co.jp) using BeautifulSoup4 and entered them into the company website (hanabusa-realty.com) using Selenium in Python.
-		\item Saved up to 60 hours of manual labor per month.
-	\end{itemize}}
+% \resumeSubheading
+% {\href{https://hanabusa.cc/}{Hanabusa Japan Real Estate}}{Japan (Remote)}
+% {Data Entry Automator}{Sep 2020 - Sep 2021}
+% \resumeItemListStart
+% \resumeItem{\href{https://github.com/pl3lee/Hanabusa-Automation}{Web Scraping and Data Entry Automation, Residential Properties}}
+% {\begin{itemize}
+% 		\item Extracted residential property information and images from a Japanese real estate website (homes.co.jp) using BeautifulSoup4 and entered them into the company website (hanabusa-realty.com) using Selenium in Python.
+% 		\item Saved up to 60 hours of manual labor per month.
+% 	\end{itemize}}
 % \resumeItem{\href{https://github.com/pl3lee/Reins-Automation}{Web Scraping, Investment Properties}}
 % {\begin{itemize}
 % 		\item Extracted investment property information from a Japanese investment property website (system.reins.jp).
 % 		\item Wrote a Python script that converted PDF files (Information taken from the website) into HTML files. Then, Selenium was used to select essential property information (over 30 fields) from the HTML file.
 % 		\item Saved up to 60 hours per month when compared to manually extracting information.
 % 	\end{itemize}}
-\resumeItemListEnd
+% \resumeItemListEnd
 
 
 
 % \resumeSubheading
-%   {Lucena Research}{Atlanta, GA}
-%   {Data Scientist}{Summer 2012 and 2013}
-%   \resumeItemListStart
-%     \resumeItem{Portfolio Management}
-%       {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-%     \resumeItem{QuantDesk}
-%       {Python backend for a web application used by hedge fund managers for portfolio management.}
-%   \resumeItemListEnd
+% {Lucena Research}{Atlanta, GA}
+% {Data Scientist}{Summer 2012 and 2013}
+% \resumeItemListStart
+% \resumeItem{Portfolio Management}
+% {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+% \resumeItem{QuantDesk}
+% {Python backend for a web application used by hedge fund managers for portfolio management.}
+% \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
@@ -209,7 +221,7 @@
             \hfill
       }
 \item{
-            \textbf{Technologies/Frameworks}{: React, NextJS, Node.js, MongoDB, Netlify, Heroku, Redux Toolkit, Styled Components, MaterialUI, Firebase, Selenium, BeautifulSoup4, Git, npm, Webpack, Linux/Unix, Adobe Photoshop, MS Office Suite}
+            \textbf{Technologies/Frameworks}{: React, NextJS, Node.js, MongoDB, Netlify, Heroku, Redux Toolkit, Styled Components, MaterialUI, Firebase, Selenium, BeautifulSoup4, Git, npm, Webpack, Wordpress, Linux/Unix, Adobe Photoshop, MS Office Suite}
       }
 \resumeSubHeadingListEnd
 
