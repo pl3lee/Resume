@@ -1,268 +1,104 @@
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% Website: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
 
-\documentclass[letterpaper,11pt]{article}
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
-\usepackage{fancyhdr}
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{hyperref}
 
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    #1{ #2 \vspace{2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{0pt}
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{0pt}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
-\setlist[itemize]{noitemsep, topsep=0pt}
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% Set applicant's personal data for header
+\name{Billy Lee}
+\address{57 Russell Hill Road \linebreak Markham, Ontario, Canada L6C 2M5}
+\contacts{(437) 224-6179 \linebreak \href{mailto:billy.pl.lee@gmail.com}{billy.pl.lee@gmail.com} \linebreak \href{https://billylee.me}{Portfolio} \href{https://github.com/pl3lee}{GitHub} \href{https://www.linkedin.com/in/billy-lee-9892a3200/}{LinkedIn}}
 
 \begin{document}
 
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-	%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{mail@website.com}\\
-	\href{https://billylee.me}{\textbf{{\Large Billy Pak Lam Lee}}} & Email : \href{mailto:billy.pl.lee@gmail.com}{billy.pl.lee@gmail.com}\\
-	\href{https://github.com/pl3lee}{GitHub} & Mobile : +1(437)224-6179 \\
-	\href{https://www.linkedin.com/in/billy-lee-9892a3200/}{LinkedIn}
-	& Address: 57 Russell Hill Road, Markham, Ontario, Canada L6C 2M5
-\end{tabular*}
-%-----------CAREER OBJECTIVE-----------------
-% \section{Career Objectives}
-% Seeking for a software development internship opportunity that allows me to explore the real-world applications of various CS knowledge learned from University and projects.
-
-%-----------EDUCATION-----------------
-\section{Education}
-\resumeSubHeadingListStart
-\resumeSubheading
-{University of Waterloo}{Ontario, Canada}
-{Honours Bachelor of Mathematics - Fourth Year}{Sep. 2020 -- Aug. 2024}
-%   \resumeItemListStart
-% %   {Relevenant Courses: Designing Functional Programs, Elementary Algorithm Design and Data Abstraction, Data Types and Structures, Logic and Computation, Introduction to Computers and Computer Systems, Object-Oriented Software Development}
-%   \resumeItemListEnd
-\begin{itemize}
-	\item Cumulative GPA: 89.83/100
-	\item Double Major: Computational Mathematics and Combinatorics \& Optimization
-	\item Minor: Computer Science
-\end{itemize}
-% \resumeSubheading
-%   {Niagara Christian Collegiate}{Ontario, Canada}
-%   {Class of 2020;  Cumulative Average: 94}{Sep. 2018 -- June. 2020}
-\resumeSubHeadingListEnd
-%-----------EXPERIENCE-----------------
-\section{Experience}
-\resumeSubHeadingListStart
-
-\resumeSubheading
-{University of Waterloo}{Waterloo, Ontario, Canada}
-{Full Stack Developer Intern (Part-time)}{Jan 2023 - Current}
-\resumeItemListStart
-
-\resumeItem{Created responsive and intuitive interfaces using NextJS components and Material UI.}
-
-\resumeItem{Utilized Jest and GitLab pipeline for testing and linting to ensure optimal website performance and maintain high code quality.}
-
-\resumeItem{Streamlined development processes by transitioning the front-end framework from Ant Design to Material-UI.}
-
-\resumeItem{Developed backend endpoints for a Golang REST API}
-
-\resumeItemListEnd
-
-
-
-\resumeSubheading
-{Hewlett Packard Enterprise}{Hong Kong}
-{Presales Intern}{Jun 2023 - Aug 2023}
-\resumeItemListStart
-
-\resumeItem{Developed demo processes and created demo guides for various HPE GreenLake solutions, including Ezmeral, Private Cloud Enterprise, Aruba SASE, Citrix VDI, Zerto, Azure Stack, and DSCC.}
-
-\resumeItem{Created a React.js webpage to showcase available demos.}
-
-\resumeItem{Automated parts of the demo processes using Python, PowerShell, and Bash scripts.}
-
-\resumeItem{Worked with VMWare vSphere VMs to create demo environments and created a dedicated VM to host the demo website using Apache.}
-
-\resumeItemListEnd
-
-
-\resumeSubheading
-{Bolee Machine Tool Ltd.}{Hong Kong}
-{Computer Technician Intern}{Apr 2023 - May 2023}
-\resumeItemListStart
-\resumeItem{
-	Developed a Python program using Selenium to automate product management on the company’s Wordpress website, reducing 2 months of manual labor to just 4 hours.}
-
-\resumeItem{Managed the company’s server system, including configuring the VPN server for remote access and upgrading the storage of the NAS server.
-}
-
-\resumeItemListEnd
-
-
-
-% \resumeSubheading
-% {\href{https://hanabusa.cc/}{Hanabusa Japan Real Estate}}{Japan (Remote)}
-% {Data Entry Automator}{Sep 2020 - Sep 2021}
-% \resumeItemListStart
-% \resumeItem{\href{https://github.com/pl3lee/Hanabusa-Automation}{Web Scraping and Data Entry Automation, Residential Properties}}
-% {\begin{itemize}
-% 		\item Extracted residential property information and images from a Japanese real estate website (homes.co.jp) using BeautifulSoup4 and entered them into the company website (hanabusa-realty.com) using Selenium in Python.
-% 		\item Saved up to 60 hours of manual labor per month.
-% 	\end{itemize}}
-% \resumeItem{\href{https://github.com/pl3lee/Reins-Automation}{Web Scraping, Investment Properties}}
-% {\begin{itemize}
-% 		\item Extracted investment property information from a Japanese investment property website (system.reins.jp).
-% 		\item Wrote a Python script that converted PDF files (Information taken from the website) into HTML files. Then, Selenium was used to select essential property information (over 30 fields) from the HTML file.
-% 		\item Saved up to 60 hours per month when compared to manually extracting information.
-% 	\end{itemize}}
-% \resumeItemListEnd
-
-
-
-% \resumeSubheading
-% {Lucena Research}{Atlanta, GA}
-% {Data Scientist}{Summer 2012 and 2013}
-% \resumeItemListStart
-% \resumeItem{Portfolio Management}
-% {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-% \resumeItem{QuantDesk}
-% {Python backend for a web application used by hedge fund managers for portfolio management.}
-% \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-
-% \resumeSubItem{\href{https://github.com/pl3lee/Recipe-App}{Recipe App - TypeScript, NextJS, Node.js, MongoDB, Express}}
-% {\begin{itemize}
-% 		\item Developed a recipe sharing web application using Next.js, Node.js, Express, and MongoDB, with user authentication and authorization features and the ability for users to save or unsave recipes.
-% 		\item Designed and implemented the user interface using Material UI.
-% 		\item Used the useContext hook to manage global states.
-% 		\item Utilized TypeScript for improved code reliability and type safety.
-% 	\end{itemize}}
-\resumeSubItem{\href{https://github.com/pl3lee/instagram-clone}{Instagram Clone - Next.js, Express, Firebase Auth, MongoDB, Socket.io, Node.js, TypeScript}}
-{\begin{itemize}
-		\item Developed an Instagram clone using Next.js, Express, Firebase Auth, MongoDB, Socket.io, and Node.js, replicating core features such as user registration, profiles, post creation, and real-time chat.
-		\item Integrated MongoDB for efficient data storage and utilized Node.js for server-side operations. Implemented user authentication with Firebase Auth and real-time chat with Socket.io.
-		\item Ensured a responsive and user-friendly design using Tailwind CSS, providing an optimal viewing experience across different devices.
-	\end{itemize}}
-\resumeSubItem{\href{https://github.com/pl3lee/Biquadris}{Biquadris - C++}}
-{\begin{itemize}
-		\item Developed a customizable Tetris game variant with adjustable board dimensions and win conditions.
-		\item Employed the Model-View-Controller (MVC) design pattern for a robust and maintainable architecture.
-		\item Utilized the Factory Method design pattern to generate unique block configurations for varying levels.
-		\item Leveraged the X Window System to craft an engaging and user-friendly GUI.
-	\end{itemize}}
-
-% \resumeSubItem{\href{https://github.com/pl3lee/personal-website/}{Personal Website - TypeScript, NextJS, TailwindCSS}}
-% {\begin{itemize}
-% 		\item Developed a personal website using Next.js and TypeScript for enhanced performance and reliability. \item Designed an intuitive and visually appealing user interface using TailwindCSS.
-% 		\item Leveraged the benefits of TypeScript for improved code reliability and type safety.
-% 	\end{itemize}}
-
-
-% \resumeSubItem{\href{https://github.com/pl3lee/cv-project}{CV Generator - HTML/CSS/JavaScript(React)}}
-% {\begin{itemize}
-% 		\item Created a webpage that generates a CV using React.
-% 	\end{itemize}}
-
-% \resumeSubItem{\href{https://github.com/pl3lee/Sudoku}{Sudoku Solver - Python}}
-% {\begin{itemize}
-% 		\item Implemented using the backtracking algorithm.
-% 	\end{itemize}}
-
-% \resumeSubItem{\href{https://github.com/pl3lee/Battleship}{Battleship - HTML/CSS/JavaScript(React)}}
-% {\begin{itemize}
-% 		\item Created a Battleship game using React.
-% 	\end{itemize}}
-
-
-
-% \resumeSubItem{{RunSuite - Bash Script}}
-% {\begin{itemize}
-% 		\item Created a Bash script that checks if a given program matches the output of the given test suite.
-% 	\end{itemize}}
-\resumeSubHeadingListEnd
-
-
-
-
-
-
-
-
-%
-%--------PROGRAMMING SKILLS------------
-\section{Skills}
-\resumeSubHeadingListStart
-\item{
-            \textbf{Programming Languages}{: Python, JavaScript, TypeScript, Go, C++, C, Bash, HTML, CSS, SQL, Ruby, R, MIPS Assembly, Racket, LaTeX, MATLAB}
-            \hfill
-      }
-\item{
-            \textbf{Technologies/Frameworks}{: React, NextJS, Socket.io, Node.js, MongoDB, Mongoose, Styled Components, MaterialUI, TailwindCSS, Jest, Firebase, Selenium, BeautifulSoup4, Git, npm, Webpack, Wordpress, Linux/Unix, Adobe Photoshop, MS Office Suite}
-      }
-\resumeSubHeadingListEnd
-
-
-%-------------------------------------------
-
-
-
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Lead Developer (Part-time)}{University of Waterloo}{Starting Jan 2024}		
+		\end{cvsubsection}
+		\begin{cvsubsection}{Full Stack Developer (Part-time)}{University of Waterloo}{Jan -- Apr, Sept -- Dec 2023}
+			\begin{itemize}
+				\item Spearheaded the implementation of advanced features including Rich Text Support and dynamic highlighting functionality.
+				\item Innovatively designed and executed responsive Next.js components and pages, leveraging Material UI for optimal user experience.
+				\item Engineered and deployed robust backend endpoints for a Golang-based REST API.
+				\item Authored comprehensive tests using Jest and React Testing Library to ensure code integrity and functionality.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Presales Intern}{Hewlett Packard Enterprise}{May -- Aug 2023}	
+			\begin{itemize}
+				\item Developed and launched a React.js-based demo portal as the sole developer, effectively showcasing HPE GreenLake solutions and streamlining the demo process by at least 50\%.
+				\item Orchestrated the automation and optimization of demo processes for a range of HPE solutions, utilizing Python and Bash scripts, and managed VMware vSphere VM environments to ensure efficient and effective demo execution.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Computer Technician Intern}{Bolee Machine Tool Ltd.}{Apr -- Jun 2023}	
+			\begin{itemize}
+				\item Revolutionized product management by developing a Python-based automation tool using Selenium for the company's WordPress e-commerce site, slashing 2 months of manual effort to just 4 hours.
+				\item Managed the company’s server system, including configuring the VPN server for remote access and upgrading the storage of the NAS server.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Waterloo, ON Canada}{University of Waterloo}{Sept 2020 -- Aug 2024}
+			\begin{itemize}
+				\item Honours Bachelor of Mathematics - Fourth Year.
+				\item Double Major in Computational Mathematics, and Combinatorics \& Optimization.
+				\item Minor in Computer Science
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Instagram Clone}. Developed an Instagram clone using Next.js, TailwindCSS, Express, Firebase Auth, MongoDB, Socket.io, and Node.js, replicating core features such as user registration, profiles, post creation, and real-time chat.
+				\item \textbf{Biquadris}. Engineered a customizable Tetris variant in C++, utilizing MVC and Factory Method design patterns for a robust architecture. Created an engaging and user-friendly GUI using the X Window System, with adjustable board dimensions and win conditions.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	% \begin{cvsection}{Additional Experience and Awards}
+	% 	\begin{cvsubsection}{}{}{}	
+	% 		\begin{itemize}
+	% 			\item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
+	% 			\item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
+	% 		\end{itemize}
+	% 	\end{cvsubsection}
+	% \end{cvsection}
+	
+	\begin{cvsection}{Skills}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Languages:} TypeScript, JavaScript, HTML, CSS, Python, C++, Go, Bash, SQL, LaTeX, MATLAB
+				\item \textbf{Technologies/Frameworks:} React, Next.js, Socket.io, Node.js, MongoDB, Mongoose, MaterialUI, TailwindCSS, Jest, React Testing Library, Firebase, Selenium, Git, npm, Linux/Unix, Wordpress, Github, Gitlab.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
 \end{document}
+
