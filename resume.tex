@@ -26,17 +26,28 @@
 % For mathematical symbols
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{fontawesome5}
 
 % Set applicant's personal data for header
 \name{Billy Lee}
 \address{57 Russell Hill Road \linebreak Markham, Ontario, Canada L6C 2M5}
-\contacts{(437) 224-6179 \linebreak \href{mailto:billy.pl.lee@gmail.com}{billy.pl.lee@gmail.com} \linebreak \href{https://billylee.me}{Portfolio} \href{https://github.com/pl3lee}{GitHub} \href{https://www.linkedin.com/in/billy-lee-9892a3200/}{LinkedIn}}
+\contacts{(437) 224-6179 \linebreak \href{mailto:billy.pl.lee@gmail.com}{billy.pl.lee@gmail.com} \linebreak \href{https://billylee.me}{https://billylee.me} \linebreak \href{https://github.com/pl3lee}{\faGithub} \href{https://www.linkedin.com/in/billy-lee-9892a3200/}{\faLinkedin}}
 
 \begin{document}
 
 	% Print the header
 	\makeheader
 	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Waterloo, ON Canada}{University of Waterloo}{Sept 2020 -- Aug 2024}
+			\begin{itemize}
+				\item Honours Bachelor of Mathematics - Fourth Year.
+				\item Double Major in Computational Mathematics, and Combinatorics \& Optimization.
+				\item Minor in Computer Science
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
 	% Print the content
 	\begin{cvsection}{Employment}
 		\begin{cvsubsection}{Lead Developer (Part-time)}{University of Waterloo}{Starting Jan 2024}		
@@ -59,16 +70,6 @@
 			\begin{itemize}
 				\item Revolutionized product management by developing a Python-based automation tool using Selenium for the company's WordPress e-commerce site, slashing 2 months of manual effort to just 4 hours.
 				\item Managed the company’s server system, including configuring the VPN server for remote access and upgrading the storage of the NAS server.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Waterloo, ON Canada}{University of Waterloo}{Sept 2020 -- Aug 2024}
-			\begin{itemize}
-				\item Honours Bachelor of Mathematics - Fourth Year.
-				\item Double Major in Computational Mathematics, and Combinatorics \& Optimization.
-				\item Minor in Computer Science
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
