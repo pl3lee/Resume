@@ -1,0 +1,35 @@
+name: Update Resume on Website
+
+on:
+  push:
+    branches:
+      - main # Replace with your default branch
+
+jobs:
+  update-resume:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out resume repository
+      uses: actions/checkout@v2
+      with:
+        repository: 'pl3lee/Resume'
+        path: 'resume'
+
+    - name: Check out personal website repository
+      uses: actions/checkout@v2
+      with:
+        repository: 'pl3lee/personal-website'
+        path: 'personal-website'
+        token: ${{ secrets.PERSONAL_WEBSITE_TOKEN }} # Ensure this token has the right permissions
+
+    - name: Copy resume PDF
+      run: cp resume/resume.pdf personal-website/public/
+
+    - name: Commit and push
+      run: |
+        cd personal-website
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add public/resume.pdf
+        git commit -m "Update resume"
+        git push
