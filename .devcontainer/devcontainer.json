@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "texlive",
+	// Change this based on architecture of your machine
+	"image": "pl3lee/texlive-devcontainer:latest",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"settings": {
+                	"extensions.verifySignature": false
+            	},
+		"vscode": {
+			"extensions": ["mathematic.vscode-latex", "jeffersonqin.latex-snippets-jeff", "tecosaur.latex-utilities", "james-yu.latex-workshop", "streetsidesoftware.code-spell-checker", "github.copilot", "github.copilot-chat"]
+		}
+	},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root",
+	"mounts": ["source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/root/.ssh,type=bind,consistency=cached", "source=profile,target=/root,type=volume",	"target=/root/.vscode-server,type=volume"]
+}
