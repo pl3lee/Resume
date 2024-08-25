@@ -18,7 +18,7 @@ jobs:
     - name: Check out personal website repository
       uses: actions/checkout@v2
       with:
-        repository: 'pl3lee/personal-website'
+        repository: 'pl3lee/personal-website-v2'
         path: 'personal-website'
         token: ${{ secrets.PERSONAL_WEBSITE_TOKEN }} # Ensure this token has the right permissions
 
