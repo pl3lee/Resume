@@ -23,7 +23,7 @@ jobs:
         token: ${{ secrets.PERSONAL_WEBSITE_TOKEN }} # Ensure this token has the right permissions
 
     - name: Copy resume PDF
-      run: cp resume/resume.pdf personal-website/public/
+      run: cp resume/resume.pdf personal-website/public/ && cp resume/resume-ft.pdf personal-website/public/
 
     - name: Commit and push
       run: |
@@ -31,5 +31,6 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add public/resume.pdf
+        git add public/resume-ft.pdf
         git commit -m "Update resume"
         git push
