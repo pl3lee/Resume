@@ -9,28 +9,14 @@ jobs:
   update-resume:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out resume repository
-      uses: actions/checkout@v2
-      with:
-        repository: 'pl3lee/Resume'
-        path: 'resume'
+      - name: Installing ssh key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DROPLET_SSH_KEY }}
+      - name: Refresh resume
+        run: |
+          ssh -o StrictHostKeyChecking=no billy@${{ secrets.DROPLET_IP }} << 'EOF'
+          cd ~/resume
+          git pull
+        EOF
 
-    - name: Check out personal website repository
-      uses: actions/checkout@v2
-      with:
-        repository: 'pl3lee/personal-website-v3'
-        path: 'personal-website'
-        token: ${{ secrets.PERSONAL_WEBSITE_TOKEN }} # Ensure this token has the right permissions
-
-    - name: Copy resume PDF
-      run: cp resume/resume.pdf personal-website/public/ && cp resume/resume-ft.pdf personal-website/public/
-
-    - name: Commit and push
-      run: |
-        cd personal-website
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add public/resume.pdf
-        git add public/resume-ft.pdf
-        git commit -m "Update resume"
-        git push
