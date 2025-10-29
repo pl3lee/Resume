@@ -16,7 +16,7 @@ jobs:
       - name: Refresh resume
         run: |
           ssh -o StrictHostKeyChecking=no billy@${{ secrets.DROPLET_IP }} << 'EOF'
-          cd ~/resume
-          git pull
-        EOF
+            cd ~/resume
+            git pull
+          EOF
 
